@@ -1,4 +1,14 @@
-
+console.log("******** step 1 ************")
+function greaterNumber(){
+   var num1="10";
+   var num2="-10" 
+   var num3="800"
+   var num4="899"
+   var greaterNumber = num1>num2 ? num1:num2;
+   console.log(" The biggest number is:",greaterNumber );
+   var greaterNumber = num3>num4 ? num3:num4;
+   console.log(" The biggest number is:",greaterNumber );
+   }greaterNumber() 
 console.log("-----------step 2----------");
 var num1="29";
 var num2 ="44";

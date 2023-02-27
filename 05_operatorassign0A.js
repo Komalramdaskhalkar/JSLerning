@@ -1,15 +1,5 @@
-function greaterNumber(){
-var num1="10";
-var num2="-10" 
-var num3="800"
-var num4="899"
-var greaterNumber = num1>num2 ? num1:num2;
-console.log(" The biggest number is:",greaterNumber );
-var greaterNumber = num3>num4 ? num3:num4;
-console.log(" The biggest number is:",greaterNumber );
-}greaterNumber() 
- 
-console.log("**********************************************")
+
+
 
 var value1="javaScript";
 var value2="Google chrome";
