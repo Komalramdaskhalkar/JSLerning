@@ -38,7 +38,7 @@ function voteEligibillity(age){
 console.log( "------- Grade  Calculation--------------");
 function gradeCalculation(marks){
     
-    if(marks<=0 || marks>100 || isNaN(marks) || (typeof marks!="number"));
+    if(marks<=0 || marks>100 || isNaN(marks) || (typeof marks!="number"))
     {
    console.log(`please provide valid marks: ${marks} `);}
     
