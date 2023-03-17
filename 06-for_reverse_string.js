@@ -34,11 +34,26 @@ var str =" I am Angular champ";
         if (char ==" "){
         count= count + 1; 
     }
+}console.log(" total spaces is:",count);
+
+
+var firstWordLength= function (strGiven) {
+    firstWord=" ";
+    for (let index = 0; index < strGiven.length; index++) {
+     var char =strGiven.charAt(index);
+     firstWord = firstWord + char
+     if (char==' '){
+        break;
+     }
+        return  firstWord;
+    }
+    
 }
+firstWordLength(" focus is the key");
+console.log(`first word -->${firstWord} length is:${firstWord.length}`);
 
     
 
   
     
 
-console.log(" total spaces is:",count);
