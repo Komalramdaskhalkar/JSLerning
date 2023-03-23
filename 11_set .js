@@ -1,5 +1,5 @@
-
-const setOfNums=  new set();
+const  set =[ 6, 3, 2, 3, 9];
+ const setOfNums=  new set();
 
 setOfNums.add(6);
 setOfNums.add(3);
