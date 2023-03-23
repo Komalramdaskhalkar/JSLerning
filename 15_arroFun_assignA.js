@@ -14,6 +14,7 @@ let multiply =(num1,num2,num3) => {
   console.log(`The multiplication of 10,4 is ${Result}`);
   console.log("********* Arrow function with five argument and  return value ***********");
   let add = ( num1,num2,num3,num4,num5) => {
+    const result =num1 + num2  + num3 + num4 +  num5;
       return  result
 } 
 const addResult=add(100,100,200,349,756);
